@@ -1,4 +1,25 @@
 {
+  "name": "markdown-transform-loader",
+  "description": "将 mardown 格式内容转化为 vue 组件",
+  "version": "1.0.1",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/inooNgt/markdown-loader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/inooNgt/markdown-loader/issues"
+  },
+  "homepage": "https://github.com/inooNgt/markdown-loader#readme",
   "dependencies": {
     "highlight.js": "^9.18.0",
     "markdown-it": "^10.0.0",

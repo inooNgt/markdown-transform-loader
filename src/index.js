@@ -25,6 +25,6 @@ module.exports = function(source) {
     demoArr = demoReg.exec(content);
   }
   // content => vue component
-  content = template(content, demoComponents.join(""));
+  content = template(content, demoComponents.join(","));
   return content;
 };
